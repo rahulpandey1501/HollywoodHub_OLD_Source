@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:focusable="true"
+    app:cardCornerRadius="0dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/recycler_gridlist"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_margin="1dp"
+        android:background="@color/colorAccent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdgeLength="4dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_menu_slideshow"
+            android:id="@+id/movie_IV"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:maxLines="2"
+            android:minLines="2"
+            android:visibility="visible"
+            android:padding="3dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimaryDark"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:id="@+id/movie_title_TV"
+            android:layout_below="@+id/movie_IV"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:cardUseCompatPadding="true"-->
+        <!--app:cardBackgroundColor="@android:color/transparent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/recycler_dlist"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/dTitle"-->
+                <!--android:textSize="13sp"-->
+                <!--android:maxLines="1"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:gravity="start"-->
+                <!--android:paddingTop="2dp"-->
+                <!--android:paddingBottom="2dp"-->
+                <!--android:paddingLeft="4dp"-->
+                <!--android:ellipsize="end"-->
+                <!--android:background="#A6000000" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/dLink"-->
+                <!--android:textSize="13sp"-->
+                <!--android:maxLines="1"-->
+                <!--android:ellipsize="end"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:gravity="start"-->
+                <!--android:background="#80000000"-->
+                <!--android:padding="4dp" />-->
+        <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+</android.support.v7.widget.CardView>
