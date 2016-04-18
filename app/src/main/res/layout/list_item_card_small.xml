@@ -14,7 +14,6 @@
         android:id="@+id/recycler_gridlist"
         android:layout_width="match_parent"
         android:visibility="visible"
-        android:layout_margin="1dp"
         android:background="@color/colorAccent"
         android:layout_height="match_parent">
 
@@ -29,10 +28,9 @@
             android:id="@+id/movie_IV"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:text="TITLE"
-            android:maxLines="2"
-            android:minLines="2"
+            android:maxLines="1"
             android:visibility="visible"
             android:padding="3dp"
             android:textColor="#ffffff"
